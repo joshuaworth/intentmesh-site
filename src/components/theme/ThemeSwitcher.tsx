@@ -19,8 +19,6 @@ export function ThemeSwitcher() {
   );
 
   useEffect(() => {
-    // Hydration guard for accent preview
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     if (typeof window === "undefined") return;
     const storedName = window.localStorage.getItem(ACCENT_STORAGE_KEY);
