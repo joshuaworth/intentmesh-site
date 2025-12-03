@@ -3,27 +3,27 @@ export function WhyIntentMesh() {
     <section className="container-outer py-16 text-white">
       <div className="grid gap-8 md:grid-cols-3">
         <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
-          <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Market Thesis</p>
+          <p className="text-xs uppercase tracking-[0.35em] accent-label">Market Thesis</p>
           <h3 className="mt-3 text-xl font-semibold">Edge-first AI for regulated trades</h3>
-          <p className="mt-3 text-sm text-slate-200">
-            Elevator downtime is a $10B+ drag. Crews operate in RF shadows and legal minefields, which kills generic AI
-            assistants. Pullsheet’s offline engine and safety rails unlock AI where it actually hurts.
+          <p className="mt-3 text-sm leading-relaxed text-slate-200">
+            Elevator downtime is a $10B+ drag. Crews work in RF shadows and legal minefields, so Pullsheet keeps inference at
+            the edge with rails that stay compliance-safe.
           </p>
         </article>
         <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
-          <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Traction</p>
+          <p className="text-xs uppercase tracking-[0.35em] accent-label">Traction</p>
           <h3 className="mt-3 text-xl font-semibold">Pilots with real mechanics</h3>
-          <p className="mt-3 text-sm text-slate-200">
-            Active field techs in Southwest Florida run Pullsheet on live calls. Diagnostic sessions close in 32% less
-            time, logbooks stay compliant, and new hires train on real controllers—not abstract sims.
+          <p className="mt-3 text-sm leading-relaxed text-slate-200">
+            Active field techs in Southwest Florida run Pullsheet on live calls—closing diagnostics 32% faster while keeping
+            logbooks clean and apprentices training on real controllers.
           </p>
         </article>
         <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
-          <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Moat</p>
+          <p className="text-xs uppercase tracking-[0.35em] accent-label">Moat</p>
           <h3 className="mt-3 text-xl font-semibold">Intent layer across hardware</h3>
-          <p className="mt-3 text-sm text-slate-200">
-            Every crew interaction enriches the IntentMesh graph, which flows back into training, manufacturing, and AI
-            oversight. This creates a defensible data loop VC partners and enterprise buyers care about.
+          <p className="mt-3 text-sm leading-relaxed text-slate-200">
+            Every crew interaction enriches the IntentMesh graph, feeding training, manufacturing oversight, and AI safety—a
+            loop VC partners and enterprise buyers care about.
           </p>
         </article>
       </div>
