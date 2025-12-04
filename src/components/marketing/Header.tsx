@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ThemeSwitcher } from "@/components/theme/ThemeSwitcher";
 
 const navLinks = [
   { href: "#why", label: "Why" },
@@ -41,17 +40,15 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <div className="flex items-center gap-3">
-          <ThemeSwitcher />
-          <Link
-            href="#contact"
-            className="jelly-pill hidden text-xs uppercase tracking-[0.25em] lg:inline-flex px-5 py-2"
-          >
-            Let’s talk
-          </Link>
-        </div>
+        <Link
+          href="#contact"
+          className="jelly-pill hidden text-xs uppercase tracking-[0.25em] lg:inline-flex px-5 py-2"
+        >
+          Let’s talk
+        </Link>
       </div>
     </header>
   );
 }
+
 
