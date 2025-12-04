@@ -74,19 +74,63 @@ export default function RootLayout({
 
   const productSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": ["Product", "SoftwareApplication"],
     name: "Pullsheet",
+    image: "https://intentmesh.systems/og-intentmesh.png",
     brand: {
       "@type": "Brand",
       name: "IntentMesh",
     },
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web",
     description:
       "Offline-capable elevator diagnostics and training platform with annotated capture, AI reasoning, and compliance controls.",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: 0,
+      ratingCount: 0,
+      reviewCount: 0,
+    },
     offers: {
       "@type": "Offer",
       availability: "https://schema.org/PreOrder",
       priceCurrency: "USD",
-      price: "0",
+      price: 0,
+      priceValidUntil: "2026-12-31",
+      url: "https://intentmesh.systems",
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingRate: {
+          "@type": "MonetaryAmount",
+          value: 0,
+          currency: "USD",
+        },
+        shippingDestination: {
+          "@type": "DefinedRegion",
+          addressCountry: "US",
+        },
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: {
+            "@type": "QuantitativeValue",
+            minValue: 0,
+            maxValue: 0,
+            unitCode: "DAY",
+          },
+          transitTime: {
+            "@type": "QuantitativeValue",
+            minValue: 0,
+            maxValue: 0,
+            unitCode: "DAY",
+          },
+        },
+      },
+      hasMerchantReturnPolicy: {
+        "@type": "MerchantReturnPolicy",
+        returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+        applicableCountry: "US",
+        name: "No returns - free beta access",
+      },
     },
   };
 
