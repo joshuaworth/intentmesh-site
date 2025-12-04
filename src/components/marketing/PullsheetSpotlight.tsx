@@ -60,13 +60,6 @@ export function PullsheetSpotlight() {
               <span>Last sync: offline · ready</span>
             </div>
           </div>
-          <Image
-            src="/images/tool-airshim.png"
-            alt="Pullsheet accessory tool AirShim"
-            width={120}
-            height={120}
-            className="absolute -bottom-10 -right-6 hidden rounded-2xl border border-white/10 bg-slate-900/80 p-3 shadow-lg md:block"
-          />
         </div>
       </div>
     </section>
