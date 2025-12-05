@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LabsGrid } from "@/components/marketing/LabsGrid";
 
 export const metadata: Metadata = {

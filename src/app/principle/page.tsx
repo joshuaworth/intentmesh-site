@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { IntentLayerDiagram } from "@/components/marketing/IntentLayerDiagram";
 import { WhyIntentMesh } from "@/components/marketing/WhyIntentMesh";
 
