@@ -4,7 +4,6 @@ import { PullsheetSpotlight } from "@/components/marketing/PullsheetSpotlight";
 import { CredibilityStrip } from "@/components/marketing/CredibilityStrip";
 import { IntentLayerDiagram } from "@/components/marketing/IntentLayerDiagram";
 import { ContactSection } from "@/components/marketing/ContactSection";
-import { Footer } from "@/components/marketing/Footer";
 import { WhyIntentMesh } from "@/components/marketing/WhyIntentMesh";
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
         <IntentLayerDiagram />
         <ContactSection />
       </main>
-      <Footer />
     </div>
   );
 }
