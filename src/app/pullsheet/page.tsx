@@ -67,6 +67,41 @@ export default function PullsheetPage() {
       <WhyIntentMesh />
       <CredibilityStrip />
 
+      <section className="container-outer pb-16">
+        <div className="jelly-surface grid gap-8 px-8 py-10 md:grid-cols-2">
+          <div>
+            <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Traction</p>
+            <h3 className="mt-3 text-2xl font-semibold">Pilots with active mechanics</h3>
+            <p className="mt-3 text-sm text-slate-200">
+              Live pilots in Southwest Florida: diagnostics closing faster, compliant logbooks, real controllers, no OEM leakage.
+            </p>
+            <ul className="mt-4 space-y-2 text-sm text-slate-100">
+              <li>• Offline-first guidance with AI stitched to code-verified steps</li>
+              <li>• Safety rails to keep proprietary/OEM material out</li>
+              <li>• Crew-ready on iOS and Android</li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Get Pullsheet</p>
+            <h3 className="mt-3 text-2xl font-semibold">Deploy with your crews</h3>
+            <p className="mt-3 text-sm text-slate-200">
+              Book a demo or start a pilot. We’ll align on equipment, compliance, and rollout steps.
+            </p>
+            <div className="mt-5 flex flex-wrap gap-3 text-sm">
+              <Link href="/contact" className="jelly-pill px-5 py-3 text-xs uppercase tracking-[0.25em]">
+                Talk to us
+              </Link>
+              <Link
+                href="https://pullsheet.app"
+                className="inline-flex items-center rounded-full border border-white/20 px-5 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-white hover:border-white/40"
+              >
+                Visit Pullsheet
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="container-outer pb-20 pt-10">
         <div className="jelly-surface px-8 py-10">
           <div className="grid gap-6 md:grid-cols-3">

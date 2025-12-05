@@ -3,6 +3,8 @@ import { Manrope, Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { AccentHydrator } from "@/components/theme/AccentHydrator";
+import { Footer } from "@/components/marketing/Footer";
+import { CtaBanner } from "@/components/marketing/CtaBanner";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -141,6 +143,8 @@ export default function RootLayout({
           <AccentHydrator />
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([organizationSchema, productSchema]) }} />
           {children}
+          <CtaBanner />
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

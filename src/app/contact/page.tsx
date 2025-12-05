@@ -31,6 +31,30 @@ export default function ContactPage() {
           <p className="mt-3 max-w-3xl text-sm text-slate-300">
             We keep responses OEM-clean, actionable, and aligned to the realities of the field.
           </p>
+          <div className="mt-5 flex flex-wrap gap-3 text-sm text-slate-100">
+            <a
+              href="mailto:hq@intentmesh.systems"
+              className="inline-flex items-center rounded-full border border-white/20 px-4 py-2 hover:border-white/40"
+            >
+              hq@intentmesh.systems
+            </a>
+            <a
+              href="https://x.com/joshuaworth"
+              className="inline-flex items-center rounded-full border border-white/20 px-4 py-2 hover:border-white/40"
+              target="_blank"
+              rel="noreferrer"
+            >
+              X / joshuaworth
+            </a>
+            <a
+              href="https://www.linkedin.com/in/joshuaiuec"
+              className="inline-flex items-center rounded-full border border-white/20 px-4 py-2 hover:border-white/40"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
       </section>
 

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/pullsheet", label: "Pullsheet" },
@@ -15,6 +16,7 @@ const navLinks = [
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 16);
@@ -24,6 +26,7 @@ export function Header() {
   }, []);
 
   const closeMobile = () => setMobileOpen(false);
+  const isActive = (href: string) => (pathname === href ? "text-white" : "text-slate-200");
 
   return (
     <header
@@ -35,7 +38,7 @@ export function Header() {
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium text-slate-200 lg:flex">
           {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} className="hover:text-white transition-colors">
+            <Link key={link.href} href={link.href} className={`hover:text-white transition-colors ${isActive(link.href)}`}>
               {link.label}
             </Link>
           ))}
@@ -65,7 +68,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="rounded-xl px-3 py-2 hover:bg-white/5"
+                className={`rounded-xl px-3 py-2 hover:bg-white/5 ${isActive(link.href)}`}
                 onClick={closeMobile}
               >
                 {link.label}

@@ -39,6 +39,17 @@ export default function PrinciplePage() {
             Principles: Offline first. No OEM leakage. Human-in-the-loop supervision. Compliance and safety before speed. Data
             compounds back into crews, training, and ops.
           </p>
+          <div className="mt-5 flex flex-wrap gap-3 text-sm">
+            <Link href="/contact" className="jelly-pill px-5 py-3 text-xs uppercase tracking-[0.25em]">
+              Talk to us
+            </Link>
+            <Link
+              href="/pullsheet"
+              className="inline-flex items-center rounded-full border border-white/20 px-5 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-white hover:border-white/40"
+            >
+              See Pullsheet
+            </Link>
+          </div>
         </div>
       </section>
 

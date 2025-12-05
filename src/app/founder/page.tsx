@@ -61,6 +61,12 @@ export default function FounderPage() {
               >
                 Pullsheet
               </Link>
+            <Link
+              href="/contact"
+              className="jelly-pill px-4 py-2 text-xs uppercase tracking-[0.2em]"
+            >
+              Talk to Joshua
+            </Link>
             </div>
           </div>
           <div className="relative">
@@ -103,6 +109,50 @@ export default function FounderPage() {
               <p className="mt-3 text-sm text-slate-200">
                 Every field interaction enriches the mesh—feeding training, diagnostics, and ops for the next job.
               </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="container-outer pb-20">
+        <div className="jelly-surface px-8 py-10">
+          <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Selected work</p>
+          <h2 className="mt-3 text-3xl font-headline">Intent-driven products</h2>
+          <div className="mt-6 grid gap-6 md:grid-cols-3">
+            <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
+              <h3 className="text-xl font-semibold">Pullsheet</h3>
+              <p className="mt-2 text-sm text-slate-200">
+                Offline-first field intelligence for elevator mechanics. Guides real controllers, keeps OEM content out, and
+                captures annotated logbooks.
+              </p>
+              <Link href="/pullsheet" className="mt-3 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-teal-200">
+                View page →
+              </Link>
+            </article>
+            <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
+              <h3 className="text-xl font-semibold">LaunchConstellation</h3>
+              <p className="mt-2 text-sm text-slate-200">
+                Open-source AI launch pipeline with approval gates, multi-agent orchestration, and GitHub PR safety rails.
+              </p>
+              <Link
+                href="https://github.com/joshuaworth/launch-constellation"
+                className="mt-3 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-teal-200"
+              >
+                GitHub →
+              </Link>
+            </article>
+            <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
+              <h3 className="text-xl font-semibold">Pullsheet Mobile</h3>
+              <p className="mt-2 text-sm text-slate-200">
+                Mobile pilots for crews in the field with safety rails, offline sync, and Jelly Glass UI refinements from the
+                pullsheetintent project.
+              </p>
+              <Link
+                href="https://github.com/joshuaworth/pullsheetintent"
+                className="mt-3 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-teal-200"
+              >
+                Repo →
+              </Link>
             </article>
           </div>
         </div>
