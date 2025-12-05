@@ -2,7 +2,6 @@ import { Header } from "@/components/marketing/Header";
 import { Hero } from "@/components/marketing/Hero";
 import { PullsheetSpotlight } from "@/components/marketing/PullsheetSpotlight";
 import { CredibilityStrip } from "@/components/marketing/CredibilityStrip";
-import { LabsGrid } from "@/components/marketing/LabsGrid";
 import { IntentLayerDiagram } from "@/components/marketing/IntentLayerDiagram";
 import { ContactSection } from "@/components/marketing/ContactSection";
 import { Footer } from "@/components/marketing/Footer";
@@ -18,7 +17,6 @@ export default function Home() {
         <PullsheetSpotlight />
         <CredibilityStrip />
         <div className="mesh-divider" aria-hidden="true" />
-        <LabsGrid />
         <IntentLayerDiagram />
         <ContactSection />
       </main>
