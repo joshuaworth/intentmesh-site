@@ -5,6 +5,7 @@ const footerLinks = [
   { href: "/labs", label: "Labs" },
   { href: "/principle", label: "Principle" },
   { href: "/founder", label: "Founder" },
+  { href: "/account-deletion", label: "Account Deletion" },
   { href: "/contact", label: "Contact" },
   { href: "/privacy", label: "Privacy" },
 ];
