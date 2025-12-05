@@ -45,8 +45,14 @@ export function Header() {
           <Link href="/pullsheet" className="hidden text-xs uppercase tracking-[0.25em] text-slate-200 hover:text-white lg:inline-flex">
             Pullsheet
           </Link>
-          <Link href="/contact" className="jelly-pill hidden text-xs uppercase tracking-[0.25em] lg:inline-flex px-5 py-2">
-            Let’s talk
+          <Link
+            href="mailto:support@intentmesh.systems?subject=Pullsheet%20Closed%20Beta%20Request&body=Name:%0ACompany:%0AEmail:%0APlatform:%20iOS%20TestFlight%20%2F%20Android%20Play%20Store%20%2F%20Both%0AUse%20case:%0A"
+            className="jelly-pill hidden text-xs uppercase tracking-[0.25em] lg:inline-flex px-5 py-2"
+          >
+            Request Beta
+          </Link>
+          <Link href="/contact" className="hidden text-xs uppercase tracking-[0.25em] text-slate-200 hover:text-white lg:inline-flex">
+            Contact
           </Link>
           <button
             type="button"
@@ -73,6 +79,13 @@ export function Header() {
               </Link>
             ))}
             <Link
+              href="mailto:support@intentmesh.systems?subject=Pullsheet%20Closed%20Beta%20Request&body=Name:%0ACompany:%0AEmail:%0APlatform:%20iOS%20TestFlight%20%2F%20Android%20Play%20Store%20%2F%20Both%0AUse%20case:%0A"
+              className="jelly-pill inline-flex w-full justify-center px-4 py-2 text-xs uppercase tracking-[0.2em]"
+              onClick={closeMobile}
+            >
+              Request Beta
+            </Link>
+            <Link
               href="/contact"
               className="jelly-pill inline-flex w-full justify-center px-4 py-2 text-xs uppercase tracking-[0.2em]"
               onClick={closeMobile}
@@ -85,5 +98,8 @@ export function Header() {
     </header>
   );
 }
+
+
+
 
 

@@ -18,6 +18,20 @@ const socialLinks = [
 export function Footer() {
   return (
     <footer className="mt-20 border-t border-white/10 bg-slate-950/70 text-white">
+      <div className="container-outer flex flex-col gap-4 border-b border-white/10 py-6 md:flex-row md:items-center md:justify-between">
+        <div>
+          <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Pullsheet closed beta</p>
+          <p className="text-sm text-slate-200">GPT-5.1 high reasoning included during beta (free now). Limited seats.</p>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <Link
+            href="mailto:support@intentmesh.systems?subject=Pullsheet%20Closed%20Beta%20Request&body=Name:%0ACompany:%0AEmail:%0APlatform:%20iOS%20TestFlight%20%2F%20Android%20Play%20Store%20%2F%20Both%0AUse%20case:%0A"
+            className="jelly-pill px-5 py-3 text-xs uppercase tracking-[0.2em]"
+          >
+            Request beta access
+          </Link>
+        </div>
+      </div>
       <div className="container-outer grid gap-6 py-10 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <p className="text-xs uppercase tracking-[0.35em] text-teal-200">IntentMesh</p>
@@ -58,3 +72,6 @@ export function Footer() {
     </footer>
   );
 }
+
+
+

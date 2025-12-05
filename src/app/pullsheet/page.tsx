@@ -22,6 +22,9 @@ export const metadata: Metadata = {
 };
 
 export default function PullsheetPage() {
+  const betaMailto =
+    "mailto:support@intentmesh.systems?subject=Pullsheet%20Closed%20Beta%20Request&body=Name:%0ACompany:%0AEmail:%0APlatform:%20iOS%20TestFlight%20%2F%20Android%20Play%20Store%20%2F%20Both%0AUse%20case:%0A";
+
   return (
     <main className="text-white">
       <section className="container-outer pt-28 pb-16" aria-labelledby="pullsheet-hero-title">
@@ -43,10 +46,7 @@ export default function PullsheetPage() {
             Seats are limited; product will be paid at launch.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <Link
-              href="mailto:support@intentmesh.systems?subject=Pullsheet%20Closed%20Beta%20Request&body=Name:%0ACompany:%0AEmail:%0APlatform:%20iOS%20TestFlight%20%2F%20Android%20Play%20Store%20%2F%20Both%0AUse%20case:%0A"
-              className="jelly-pill inline-flex items-center justify-center px-6 py-3 text-sm uppercase tracking-[0.2em]"
-            >
+            <Link href={betaMailto} className="jelly-pill inline-flex items-center justify-center px-6 py-3 text-sm uppercase tracking-[0.2em]">
               Request closed beta access
             </Link>
             <Link
@@ -96,10 +96,10 @@ export default function PullsheetPage() {
                 Talk to us
               </Link>
               <Link
-                href="https://pullsheet.app"
+                href={betaMailto}
                 className="inline-flex items-center rounded-full border border-white/20 px-5 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-white hover:border-white/40"
               >
-                Visit Pullsheet
+                Request beta
               </Link>
             </div>
           </div>
@@ -141,6 +141,17 @@ export default function PullsheetPage() {
           <p className="mt-6 text-sm text-slate-300">
             Labs are paused while we focus on the Pullsheet closed beta.
           </p>
+        </div>
+      </section>
+
+      <section className="sticky bottom-0 z-40 border-t border-white/10 bg-slate-950/85 backdrop-blur">
+        <div className="container-outer flex flex-col items-center justify-between gap-3 py-3 text-sm text-slate-100 md:flex-row">
+          <span className="text-xs uppercase tracking-[0.28em] text-teal-100">Pullsheet closed beta</span>
+          <div className="flex flex-wrap gap-3">
+            <Link href={betaMailto} className="jelly-pill px-5 py-2 text-xs uppercase tracking-[0.2em]">
+              Request access
+            </Link>
+          </div>
         </div>
       </section>
     </main>
