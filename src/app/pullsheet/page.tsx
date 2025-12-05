@@ -44,7 +44,7 @@ export default function PullsheetPage() {
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
-              href="mailto:hq@intentmesh.systems?subject=Pullsheet%20Closed%20Beta%20Request&body=Name:%0ACompany:%0AEmail:%0APlatform:%20iOS%20TestFlight%20%2F%20Android%20Play%20Store%20%2F%20Both%0AUse%20case:%0A"
+              href="mailto:support@intentmesh.systems?subject=Pullsheet%20Closed%20Beta%20Request&body=Name:%0ACompany:%0AEmail:%0APlatform:%20iOS%20TestFlight%20%2F%20Android%20Play%20Store%20%2F%20Both%0AUse%20case:%0A"
               className="jelly-pill inline-flex items-center justify-center px-6 py-3 text-sm uppercase tracking-[0.2em]"
             >
               Request closed beta access

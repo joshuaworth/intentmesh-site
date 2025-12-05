@@ -52,7 +52,7 @@ export function Footer() {
               </Link>
             ))}
           </div>
-          <p className="mt-4 text-xs text-slate-400">hq@intentmesh.systems</p>
+          <p className="mt-4 text-xs text-slate-400">support@intentmesh.systems</p>
         </div>
       </div>
     </footer>

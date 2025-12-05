@@ -70,7 +70,7 @@ export default function RootLayout({
     "@type": "Organization",
     name: "IntentMesh",
     url: "https://intentmesh.systems",
-    email: "hq@intentmesh.systems",
+    email: "support@intentmesh.systems",
     sameAs: ["https://www.linkedin.com/company/intentmesh"],
   };
 
