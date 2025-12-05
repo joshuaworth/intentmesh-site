@@ -3,10 +3,12 @@ import { ContactSection } from "@/components/marketing/ContactSection";
 
 export const metadata: Metadata = {
   title: "Contact | IntentMesh",
-  description: "Reach IntentMesh to deploy Pullsheet, collaborate on pilots, or talk AI safety for the field.",
+  description:
+    "Request Pullsheet closed beta access (iOS TestFlight or Android Play Store), collaborate on pilots, or discuss AI safety for regulated work.",
   openGraph: {
     title: "Contact | IntentMesh",
-    description: "Talk to IntentMesh about Pullsheet pilots, labs, or AI systems for regulated work.",
+    description:
+      "Talk to IntentMesh about Pullsheet closed beta, pilots, or AI systems for regulated work. GPT-5.1 high reasoning included during beta.",
     url: "https://intentmesh.systems/contact",
     images: ["/og-intentmesh.png"],
   },

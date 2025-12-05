@@ -21,9 +21,9 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://intentmesh.systems"),
-  title: "IntentMesh | Pullsheet for Real Elevator Work",
+  title: "IntentMesh | Pullsheet Closed Beta",
   description:
-    "Pullsheet by IntentMesh delivers legal-clean, offline-ready AI diagnostics for elevator crews with annotated field capture, controller training, and compliance built in.",
+    "Pullsheet closed beta: offline-ready elevator diagnostics with GPT-5.1 high reasoning included during beta (free now), iOS TestFlight and Android Play Store, limited seats, paid at launch.",
   keywords: [
     "Pullsheet",
     "IntentMesh",
