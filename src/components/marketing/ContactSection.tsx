@@ -7,7 +7,7 @@ export function ContactSection() {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
 
-  const email = "hq@intentmesh.systems";
+  const email = "support@intentmesh.systems";
 
   const copyEmail = async () => {
     try {

@@ -6,7 +6,7 @@ export default function PrivacyPage() {
         <p className="mt-6 max-w-3xl text-slate-200">
           IntentMesh stores the minimum information required to respond to inbound requests. We do not sell or broker
           your personal data. Customer diagnostic records are encrypted at rest, synced only when crews approve it, and
-          deleted upon request. Contact hq@intentmesh.systems for any privacy question.
+          deleted upon request. Contact support@intentmesh.systems for any privacy question.
         </p>
       </div>
     </div>
