@@ -76,7 +76,7 @@ export default function PullsheetPage() {
             <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Traction</p>
             <h3 className="mt-3 text-2xl font-semibold">Pilots with elevator crews</h3>
             <p className="mt-3 text-sm text-slate-200">
-              Live pilots in Southwest Florida: diagnostics closing faster, compliant logbooks, real controllers, no OEM leakage.
+              Closed beta: diagnostics closing faster, compliant logbooks, real controllers, no OEM leakage.
             </p>
             <ul className="mt-4 space-y-2 text-sm text-slate-100">
               <li>• Offline-first guidance with AI stitched to code-verified steps</li>
