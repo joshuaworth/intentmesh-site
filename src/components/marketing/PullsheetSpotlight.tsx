@@ -1,4 +1,5 @@
 import { pullsheetFeatures } from "@/data/intentmesh";
+import Image from "next/image";
 import Link from "next/link";
 
 export function PullsheetSpotlight() {
@@ -11,9 +12,8 @@ export function PullsheetSpotlight() {
           </p>
           <h2 className="mt-4 text-3xl font-headline">The intent layer for elevator diagnostics</h2>
           <p className="mt-4 text-slate-200">
-            Pullsheet gives field crews the same clarity the system designer has: fault logic, schematics, training, and
-            compliance mapped to the exact equipment in front of them. It runs offline, stays legal-clean, and teaches every
-            time you open it.
+            Pullsheet lets crews pick a mode, describe the problem, add photos/voice, and get guided steps that stay OEM-clean.
+            It runs offline and keeps everything in a compliant logbook.
           </p>
           <ul className="mt-6 space-y-3 text-sm text-slate-100">
             {pullsheetFeatures.map((feature) => (
@@ -32,32 +32,15 @@ export function PullsheetSpotlight() {
         </div>
         <div className="relative">
           <div className="absolute -inset-6 rounded-[32px] bg-gradient-to-r from-teal-400/20 to-cyan-400/20 blur-3xl" />
-          <div className="relative rounded-[28px] border border-white/10 bg-slate-900/70 p-6 shadow-[0_35px_80px_rgba(0,0,0,0.6)]">
-            <div className="mb-4 flex items-center justify-between text-xs uppercase tracking-[0.3em] text-slate-400">
-              <span>Pullsheet Edge</span>
-              <span>Offline sync: OK</span>
-            </div>
-            <div className="space-y-4 text-sm">
-              <div className="rounded-2xl bg-slate-800/80 p-4">
-                <p className="text-xs uppercase tracking-[0.25em] text-lime-300">Fault Logic</p>
-                <p className="mt-2 font-semibold text-white">E04 selector drift after reversal</p>
-                <p className="mt-2 text-slate-300">AI reasoning stitched to OEM-free, code-verified steps.</p>
-              </div>
-              <div className="rounded-2xl bg-slate-800/60 p-4">
-                <p className="text-xs uppercase tracking-[0.25em] text-cyan-300">Annotated Field Capture</p>
-                <p className="mt-2 text-slate-200">
-                  Voice, camera, and schematics stitched into logbook entries that stay legal.
-                </p>
-              </div>
-              <div className="rounded-2xl bg-slate-800/60 p-4">
-                <p className="text-xs uppercase tracking-[0.25em] text-amber-300">Controller Training Loop</p>
-                <p className="mt-2 text-slate-200">Real selectors, relay logic, and ladder drills built for apprentices.</p>
-              </div>
-            </div>
-            <div className="mt-6 flex items-center justify-between text-xs text-slate-400">
-              <span>Compliance pack updated 48m ago</span>
-              <span>Last sync: offline · ready</span>
-            </div>
+          <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-slate-900/70 shadow-[0_35px_80px_rgba(0,0,0,0.6)]">
+            <Image
+              src="/images/pullsheet-mobile.png"
+              alt="Pullsheet mobile troubleshooting screen"
+              width={1260}
+              height={2736}
+              className="h-full w-full object-contain"
+              priority
+            />
           </div>
         </div>
       </div>
