@@ -22,8 +22,7 @@ export function Footer() {
         <div>
           <p className="text-xs uppercase tracking-[0.35em] text-teal-200">IntentMesh</p>
           <p className="mt-3 text-sm text-slate-200">
-            Field intelligence for elevator crews and regulated work. Offline-first, compliance-forward, built by working
-            mechanics.
+            Field intelligence for elevator crews and regulated work. Offline-first and compliance-forward.
           </p>
           <div className="mt-4 flex flex-wrap gap-2 text-xs uppercase tracking-[0.18em] text-slate-100">
             <Link href="/contact" className="jelly-pill px-4 py-2">

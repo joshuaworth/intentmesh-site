@@ -11,9 +11,9 @@ export function PullsheetSpotlight() {
           </p>
           <h2 className="mt-4 text-3xl font-headline">The intent layer for elevator diagnostics</h2>
           <p className="mt-4 text-slate-200">
-            Pullsheet gives field crews the same clarity the system designer has—fault logic, schematics, training,
-            and compliance mapped to the exact equipment in front of them. It runs offline, stays legal-clean, and
-            teaches every time you open it.
+            Pullsheet gives field crews the same clarity the system designer has: fault logic, schematics, training, and
+            compliance mapped to the exact equipment in front of them. It runs offline, stays legal-clean, and teaches every
+            time you open it.
           </p>
           <ul className="mt-6 space-y-3 text-sm text-slate-100">
             {pullsheetFeatures.map((feature) => (

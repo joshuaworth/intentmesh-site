@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Labs | IntentMesh",
     description:
-      "Research tools shaping the IntentMesh ecosystem—from Smartprentice simulations to field inspectors and manufacturing ops.",
+      "Research tools shaping the IntentMesh ecosystem, from Smartprentice simulations to field inspectors and manufacturing ops.",
     url: "https://intentmesh.systems/labs",
     images: ["/og-intentmesh.png"],
   },
@@ -27,7 +27,7 @@ export default function LabsPage() {
             Experiments that feed the mesh.
           </h1>
           <p className="mt-5 max-w-3xl text-lg text-slate-200">
-            Every lab project hardens Pullsheet and the IntentMesh core—training sims, inspectors, narrative tools, and ops
+            Every lab project hardens Pullsheet and the IntentMesh core: training sims, inspectors, narrative tools, and ops
             that compound real field intelligence across teams.
           </p>
           <p className="mt-3 max-w-3xl text-sm text-slate-300">

@@ -5,11 +5,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Founder | IntentMesh",
   description:
-    "Joshua Worth, elevator constructor and founder of IntentMesh. Building Pullsheet and field intelligence systems for regulated, offline work.",
+    "Joshua Worth, founder of IntentMesh. Building Pullsheet and field intelligence systems for regulated, offline work.",
   openGraph: {
     title: "Founder | IntentMesh",
     description:
-      "Meet Joshua Worth, founder of IntentMesh and builder of Pullsheet—offline-first AI for elevator crews and regulated trades.",
+      "Meet Joshua Worth, founder of IntentMesh and builder of Pullsheet, offline-first AI for elevator crews and regulated trades.",
     url: "https://intentmesh.systems/founder",
     images: ["/og-intentmesh.png"],
   },
@@ -29,12 +29,12 @@ export default function FounderPage() {
               Joshua Worth
             </h1>
             <p className="mt-4 max-w-3xl text-lg text-slate-200">
-              Elevator constructor, field tech, and founder of IntentMesh. Pullsheet was built to keep crews fast,
-              compliant, and confident—offline, on real controllers, with AI that respects the work.
+            Founder of IntentMesh and builder of Pullsheet. The goal: keep crews fast, compliant, and confident—offline, on
+            real controllers, with AI that respects the work.
             </p>
             <p className="mt-3 max-w-3xl text-sm text-slate-300">
               Joshua leads IntentMesh LLC, an AI systems shop focused on regulated, high-stakes environments. The mission:
-              turn complexity into clarity for the built world—starting with elevator service and training.
+            turn complexity into clarity for the built world, starting with elevator service and training.
             </p>
             <div className="mt-6 flex flex-wrap gap-3 text-sm">
               <Link

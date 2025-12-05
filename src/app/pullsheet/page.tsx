@@ -8,7 +8,7 @@ import { WhyIntentMesh } from "@/components/marketing/WhyIntentMesh";
 export const metadata: Metadata = {
   title: "Pullsheet | IntentMesh",
   description:
-    "Pullsheet is the offline-ready intent layer for elevator diagnostics—built by a working elevator mechanic for crews that need legal-clean, controller-specific guidance.",
+    "Pullsheet is the offline-ready intent layer for elevator diagnostics, built by Joshua Worth for crews that need legal-clean, controller-specific guidance.",
   openGraph: {
     title: "Pullsheet | IntentMesh",
     description:
@@ -36,8 +36,7 @@ export default function PullsheetPage() {
             intelligence into a compounding asset for crews, supervisors, and owners.
           </p>
           <p className="mt-3 max-w-3xl text-sm text-slate-300">
-            Pilots with active mechanics already cut diagnostic time by double digits while keeping OEM material out of the
-            AI loop.
+            Pilots with elevator crews already cut diagnostic time by double digits while keeping OEM material out of the AI loop.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
@@ -71,7 +70,7 @@ export default function PullsheetPage() {
         <div className="jelly-surface grid gap-8 px-8 py-10 md:grid-cols-2">
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Traction</p>
-            <h3 className="mt-3 text-2xl font-semibold">Pilots with active mechanics</h3>
+            <h3 className="mt-3 text-2xl font-semibold">Pilots with elevator crews</h3>
             <p className="mt-3 text-sm text-slate-200">
               Live pilots in Southwest Florida: diagnostics closing faster, compliant logbooks, real controllers, no OEM leakage.
             </p>

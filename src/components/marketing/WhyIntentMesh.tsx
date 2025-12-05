@@ -12,10 +12,10 @@ export function WhyIntentMesh() {
         </article>
         <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
           <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Traction</p>
-          <h3 className="mt-3 text-xl font-semibold">Pilots with real mechanics</h3>
+          <h3 className="mt-3 text-xl font-semibold">Pilots with elevator crews</h3>
           <p className="mt-3 text-sm text-slate-200">
-            Active field techs in Southwest Florida run Pullsheet on live calls. Diagnostic sessions close in 32% less
-            time, logbooks stay compliant, and new hires train on real controllers—not abstract sims.
+            Active elevator crews in Southwest Florida run Pullsheet on live calls. Diagnostic sessions close in 32% less
+            time, logbooks stay compliant, and new hires train on real controllers rather than abstract sims.
           </p>
         </article>
         <article className="rounded-3xl border border-white/10 bg-white/5 p-6">

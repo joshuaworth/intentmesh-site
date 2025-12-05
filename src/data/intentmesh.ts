@@ -48,7 +48,7 @@ export const labs = [
   },
   {
     name: "Ups and Down Finance",
-    description: "Lean market intelligence tuned for builders—signals over dashboards.",
+    description: "Lean market intelligence tuned for builders; signals over dashboards.",
     href: "https://intentmesh.systems/finance",
   },
 ];

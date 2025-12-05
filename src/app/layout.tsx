@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pullsheet | IntentMesh",
     description:
-      "Intent-driven elevator diagnostics, offline reasoning, and annotated capture—designed by active field techs.",
+      "Intent-driven elevator diagnostics, offline reasoning, and annotated capture designed for elevator crews.",
     url: "https://intentmesh.systems",
     siteName: "IntentMesh",
     images: [
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pullsheet | IntentMesh",
     description:
-      "Intent-driven elevator diagnostics, offline reasoning, and annotated capture—designed by active field techs.",
+      "Intent-driven elevator diagnostics, offline reasoning, and annotated capture designed for elevator crews.",
     images: ["/og-intentmesh.png"],
   },
   alternates: {

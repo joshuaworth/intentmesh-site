@@ -13,8 +13,8 @@ export function Hero() {
           Field intelligence for elevator service.
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-slate-200">
-          Pullsheet makes crews faster, compliant, and confident—offline, OEM-clean, and tuned for real controllers. Built
-          by a working elevator mechanic for regulated, high-stakes work.
+          Pullsheet makes crews faster, compliant, and confident. It runs offline, stays OEM-clean, and is tuned for real
+          controllers. Built by Joshua Worth for regulated, high-stakes work.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
