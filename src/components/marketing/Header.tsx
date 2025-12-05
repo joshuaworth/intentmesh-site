@@ -14,6 +14,7 @@ const navLinks = [
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 16);
@@ -21,6 +22,8 @@ export function Header() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const closeMobile = () => setMobileOpen(false);
 
   return (
     <header
@@ -41,14 +44,43 @@ export function Header() {
           <Link href="/pullsheet" className="hidden text-xs uppercase tracking-[0.25em] text-slate-200 hover:text-white lg:inline-flex">
             Pullsheet
           </Link>
-          <Link
-            href="/contact"
-            className="jelly-pill hidden text-xs uppercase tracking-[0.25em] lg:inline-flex px-5 py-2"
-          >
+          <Link href="/contact" className="jelly-pill hidden text-xs uppercase tracking-[0.25em] lg:inline-flex px-5 py-2">
             Let’s talk
           </Link>
+          <button
+            type="button"
+            onClick={() => setMobileOpen((v) => !v)}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white transition hover:border-white/40 lg:hidden"
+            aria-expanded={mobileOpen}
+            aria-label="Toggle navigation"
+          >
+            <span className="text-sm">{mobileOpen ? "Close" : "Menu"}</span>
+          </button>
         </div>
       </div>
+      {mobileOpen && (
+        <div className="border-t border-white/10 bg-slate-950/95 backdrop-blur lg:hidden">
+          <div className="container-outer flex flex-col gap-2 py-4 text-sm font-medium text-slate-100">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-xl px-3 py-2 hover:bg-white/5"
+                onClick={closeMobile}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <Link
+              href="/contact"
+              className="jelly-pill inline-flex w-full justify-center px-4 py-2 text-xs uppercase tracking-[0.2em]"
+              onClick={closeMobile}
+            >
+              Let’s talk
+            </Link>
+          </div>
+        </div>
+      )}
     </header>
   );
 }
