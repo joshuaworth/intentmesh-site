@@ -9,8 +9,7 @@ export function LabsGrid() {
           <p className="text-xs uppercase tracking-[0.35em] text-teal-200">IntentMesh Labs</p>
           <h2 className="mt-2 text-3xl font-headline">Research tools shaping our future ecosystem</h2>
           <p className="mt-3 max-w-2xl text-slate-200">
-            These experiments feed the mesh—everything we learn in the field rolls back into AI guidance, controller
-            training, and manufacturing workflows.
+            These experiments feed the mesh. Everything we learn in the field rolls back into AI guidance, controller training, and manufacturing workflows.
           </p>
         </div>
       </div>

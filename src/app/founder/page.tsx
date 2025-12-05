@@ -29,7 +29,7 @@ export default function FounderPage() {
               Joshua Worth
             </h1>
             <p className="mt-4 max-w-3xl text-lg text-slate-200">
-            Founder of IntentMesh and builder of Pullsheet. The goal: keep crews fast, compliant, and confident—offline, on
+            Founder of IntentMesh and builder of Pullsheet. The goal: keep crews fast, compliant, and confident. Offline, on
             real controllers, with AI that respects the work.
             </p>
             <p className="mt-3 max-w-3xl text-sm text-slate-300">
@@ -107,7 +107,7 @@ export default function FounderPage() {
               <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Compounding data</p>
               <h3 className="mt-3 text-xl font-semibold">Intent layer across hardware</h3>
               <p className="mt-3 text-sm text-slate-200">
-                Every field interaction enriches the mesh—feeding training, diagnostics, and ops for the next job.
+                Every field interaction enriches the mesh, feeding training, diagnostics, and ops for the next job.
               </p>
             </article>
           </div>

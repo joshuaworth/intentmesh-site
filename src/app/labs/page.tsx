@@ -52,8 +52,7 @@ export default function LabsPage() {
             <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Work with us</p>
             <h3 className="mt-3 text-2xl font-semibold">Run a joint experiment</h3>
             <p className="mt-3 text-sm text-slate-200">
-              We co-design pilots with crews and leadership. Tell us your equipment, constraints, and outcomes—we’ll align a lab
-              track to it.
+              We co-design pilots with crews and leadership. Tell us your equipment, constraints, and outcomes, and we’ll align a lab track to it.
             </p>
             <div className="mt-5 flex flex-wrap gap-3 text-sm">
               <Link href="/contact" className="jelly-pill px-5 py-3 text-xs uppercase tracking-[0.25em]">

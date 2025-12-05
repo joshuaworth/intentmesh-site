@@ -115,7 +115,7 @@ export default function PullsheetPage() {
               <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Company</p>
               <h3 className="mt-3 text-xl font-semibold">Intent Mesh LLC</h3>
               <p className="mt-3 text-sm text-slate-200">
-                AI systems that turn complexity into clarity—serving regulated, offline, safety-critical work.
+                AI systems that turn complexity into clarity, serving regulated, offline, safety-critical work.
               </p>
             </div>
             <div className="flex flex-col gap-3">
