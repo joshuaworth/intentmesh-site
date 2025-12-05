@@ -8,11 +8,11 @@ import { WhyIntentMesh } from "@/components/marketing/WhyIntentMesh";
 export const metadata: Metadata = {
   title: "Pullsheet | IntentMesh",
   description:
-    "Pullsheet is the offline-ready intent layer for elevator diagnostics, built by Joshua Worth for crews that need legal-clean, controller-specific guidance.",
+    "Pullsheet closed beta: offline-ready elevator diagnostics with GPT-5.1 high reasoning included during beta. Limited seats; request access.",
   openGraph: {
     title: "Pullsheet | IntentMesh",
     description:
-      "Offline-ready elevator diagnostics with annotated capture, AI reasoning, and compliance built in. Designed by active field techs.",
+      "Pullsheet closed beta: offline-ready elevator diagnostics with GPT-5.1 high reasoning included during beta. Limited seats; request access.",
     url: "https://intentmesh.systems/pullsheet",
     images: ["/og-intentmesh.png"],
   },
@@ -27,7 +27,10 @@ export default function PullsheetPage() {
       <section className="container-outer pt-28 pb-16" aria-labelledby="pullsheet-hero-title">
         <div className="jelly-surface relative overflow-hidden px-8 py-12">
           <div className="glow-strand" aria-hidden="true" />
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-300">Pullsheet</p>
+          <div className="flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-[0.35em] text-slate-300">
+            <span>Pullsheet</span>
+            <span className="rounded-full bg-teal-500/20 px-3 py-1 text-teal-100">Closed Beta</span>
+          </div>
           <h1 id="pullsheet-hero-title" className="mt-4 text-4xl font-headline tracking-tight md:text-5xl">
             AI that respects the work.
           </h1>
@@ -36,14 +39,15 @@ export default function PullsheetPage() {
             intelligence into a compounding asset for crews, supervisors, and owners.
           </p>
           <p className="mt-3 max-w-3xl text-sm text-slate-300">
-            Pilots with elevator crews already cut diagnostic time by double digits while keeping OEM material out of the AI loop.
+            Closed beta (iOS TestFlight & Android Play Store). GPT-5.1 high reasoning included during beta and currently free.
+            Seats are limited; product will be paid at launch.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
-              href="https://pullsheet.app"
+              href="mailto:hq@intentmesh.systems?subject=Pullsheet%20Closed%20Beta%20Request&body=Name:%0ACompany:%0AEmail:%0APlatform:%20iOS%20TestFlight%20%2F%20Android%20Play%20Store%20%2F%20Both%0AUse%20case:%0A"
               className="jelly-pill inline-flex items-center justify-center px-6 py-3 text-sm uppercase tracking-[0.2em]"
             >
-              Try Pullsheet
+              Request closed beta access
             </Link>
             <Link
               href="/contact"
@@ -76,15 +80,16 @@ export default function PullsheetPage() {
             </p>
             <ul className="mt-4 space-y-2 text-sm text-slate-100">
               <li>• Offline-first guidance with AI stitched to code-verified steps</li>
+              <li>• GPT-5.1 high reasoning included during closed beta (free while it lasts)</li>
               <li>• Safety rails to keep proprietary/OEM material out</li>
-              <li>• Crew-ready on iOS and Android</li>
+              <li>• Crew-ready on iOS TestFlight and Android Play Store</li>
             </ul>
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Get Pullsheet</p>
             <h3 className="mt-3 text-2xl font-semibold">Deploy with your crews</h3>
             <p className="mt-3 text-sm text-slate-200">
-              Book a demo or start a pilot. We’ll align on equipment, compliance, and rollout steps.
+              Request closed beta access. Limited seats, currently free during beta; paid product at launch.
             </p>
             <div className="mt-5 flex flex-wrap gap-3 text-sm">
               <Link href="/contact" className="jelly-pill px-5 py-3 text-xs uppercase tracking-[0.25em]">
@@ -133,6 +138,9 @@ export default function PullsheetPage() {
               </Link>
             </div>
           </div>
+          <p className="mt-6 text-sm text-slate-300">
+            Labs are paused while we focus on the Pullsheet closed beta.
+          </p>
         </div>
       </section>
     </main>

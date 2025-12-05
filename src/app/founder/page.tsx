@@ -5,11 +5,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Founder | IntentMesh",
   description:
-    "Joshua Worth, founder of IntentMesh. Building Pullsheet and field intelligence systems for regulated, offline work.",
+    "Joshua Worth, founder of IntentMesh. Building Pullsheet and field intelligence systems for regulated, offline work. Closed beta available by request.",
   openGraph: {
     title: "Founder | IntentMesh",
     description:
-      "Meet Joshua Worth, founder of IntentMesh and builder of Pullsheet, offline-first AI for elevator crews and regulated trades.",
+      "Meet Joshua Worth, founder of IntentMesh and builder of Pullsheet, offline-first AI for elevator crews and regulated trades. Closed beta available by request.",
     url: "https://intentmesh.systems/founder",
     images: ["/og-intentmesh.png"],
   },
@@ -30,7 +30,7 @@ export default function FounderPage() {
             </h1>
             <p className="mt-4 max-w-3xl text-lg text-slate-200">
             Founder of IntentMesh and builder of Pullsheet. The goal: keep crews fast, compliant, and confident. Offline, on
-            real controllers, with AI that respects the work.
+            real controllers, with AI that respects the work. Closed beta is limited and currently free; the product will be paid at launch.
             </p>
             <p className="mt-3 max-w-3xl text-sm text-slate-300">
               Joshua leads IntentMesh LLC, an AI systems shop focused on regulated, high-stakes environments. The mission:
@@ -118,41 +118,20 @@ export default function FounderPage() {
         <div className="jelly-surface px-8 py-10">
           <p className="text-xs uppercase tracking-[0.35em] text-teal-200">Selected work</p>
           <h2 className="mt-3 text-3xl font-headline">Intent-driven products</h2>
-          <div className="mt-6 grid gap-6 md:grid-cols-3">
+          <div className="mt-6 grid gap-6 md:grid-cols-2">
             <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
               <h3 className="text-xl font-semibold">Pullsheet</h3>
               <p className="mt-2 text-sm text-slate-200">
-                Offline-first field intelligence for elevator mechanics. Guides real controllers, keeps OEM content out, and
-                captures annotated logbooks.
+                Offline-first field intelligence for elevator crews. Guides real controllers, keeps OEM content out, and captures annotated logbooks. Closed beta is limited; GPT-5.1 high reasoning included during beta.
               </p>
-              <Link href="/pullsheet" className="mt-3 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-teal-200">
-                View page →
-              </Link>
-            </article>
-            <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <h3 className="text-xl font-semibold">LaunchConstellation</h3>
-              <p className="mt-2 text-sm text-slate-200">
-                Open-source AI launch pipeline with approval gates, multi-agent orchestration, and GitHub PR safety rails.
-              </p>
-              <Link
-                href="https://github.com/joshuaworth/launch-constellation"
-                className="mt-3 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-teal-200"
-              >
-                GitHub →
-              </Link>
-            </article>
-            <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <h3 className="text-xl font-semibold">Pullsheet Mobile</h3>
-              <p className="mt-2 text-sm text-slate-200">
-                Mobile pilots for crews in the field with safety rails, offline sync, and Jelly Glass UI refinements from the
-                pullsheetintent project.
-              </p>
-              <Link
-                href="https://github.com/joshuaworth/pullsheetintent"
-                className="mt-3 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-teal-200"
-              >
-                Repo →
-              </Link>
+              <div className="mt-3 flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-[0.2em]">
+                <Link href="/pullsheet" className="text-teal-200">
+                  View Pullsheet →
+                </Link>
+                <Link href="/principle" className="text-teal-200">
+                  Principles →
+                </Link>
+              </div>
             </article>
           </div>
         </div>
