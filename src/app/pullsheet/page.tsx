@@ -29,11 +29,15 @@ export default function PullsheetPage() {
           <div className="glow-strand" aria-hidden="true" />
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-300">Pullsheet</p>
           <h1 id="pullsheet-hero-title" className="mt-4 text-4xl font-headline tracking-tight md:text-5xl">
-            Built for real elevator work, not demos.
+            AI that respects the work.
           </h1>
           <p className="mt-6 max-w-3xl text-lg text-slate-200">
-            Diagnose faster. Capture cleaner. Stay legal. Pullsheet runs offline, guides on real controllers, and turns
-            field intelligence into a compounding asset for crews, supervisors, and owners.
+            Diagnose faster. Capture cleaner. Stay legal. Pullsheet runs offline, guides on real controllers, and turns field
+            intelligence into a compounding asset for crews, supervisors, and owners.
+          </p>
+          <p className="mt-3 max-w-3xl text-sm text-slate-300">
+            Pilots with active mechanics already cut diagnostic time by double digits while keeping OEM material out of the
+            AI loop.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link

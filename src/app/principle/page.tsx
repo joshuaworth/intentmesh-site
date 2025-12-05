@@ -28,12 +28,16 @@ export default function PrinciplePage() {
             The intent layer for the built world.
           </h1>
           <p className="mt-5 max-w-3xl text-lg text-slate-200">
-            IntentMesh was built by working elevator mechanics to keep AI grounded in safety, compliance, and real
-            hardware. Offline-first, legally clean, and tuned for field intelligence that compounds.
+            IntentMesh was built by working elevator mechanics to keep AI grounded in safety, compliance, and real hardware.
+            Offline-first, legally clean, and tuned for field intelligence that compounds.
           </p>
           <p className="mt-4 max-w-3xl text-sm text-slate-300">
-            Founder: Joshua Worth — elevator constructor and builder of AI systems that turn complexity into clarity.
-            Company: Intent Mesh LLC — privately held AI shop focused on regulated, high-stakes work.
+            Founder: Joshua Worth — elevator constructor and builder of AI systems that turn complexity into clarity. Company:
+            Intent Mesh LLC — privately held AI shop focused on regulated, high-stakes work.
+          </p>
+          <p className="mt-3 max-w-3xl text-sm text-slate-300">
+            Principles: Offline first. No OEM leakage. Human-in-the-loop supervision. Compliance and safety before speed. Data
+            compounds back into crews, training, and ops.
           </p>
         </div>
       </section>

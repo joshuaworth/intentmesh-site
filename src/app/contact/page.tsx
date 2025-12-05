@@ -25,8 +25,11 @@ export default function ContactPage() {
             Talk to IntentMesh.
           </h1>
           <p className="mt-5 max-w-3xl text-lg text-slate-200">
-            Pullsheet pilots, safety reviews, AI for regulated trades, or investment conversations—tell us what you need
-            and we’ll respond faster than most elevator cars travel.
+            Pullsheet pilots, safety reviews, AI for regulated trades, or investment conversations—tell us what you need and
+            we’ll respond faster than most elevator cars travel.
+          </p>
+          <p className="mt-3 max-w-3xl text-sm text-slate-300">
+            We keep responses OEM-clean, actionable, and aligned to the realities of the field.
           </p>
         </div>
       </section>

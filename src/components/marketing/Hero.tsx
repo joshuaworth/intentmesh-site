@@ -10,11 +10,11 @@ export function Hero() {
         <div className="glow-strand" aria-hidden="true" />
         <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-300">IntentMesh</p>
         <h1 id="hero-title" className="mt-4 text-4xl font-headline tracking-tight md:text-6xl">
-          Pullsheet. Built for real elevator work.
+          Field intelligence for elevator service.
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-slate-200">
-          Diagnose faster. Capture cleaner. Work offline. Pullsheet is the flagship IntentMesh product,
-          designed by a working elevator mechanic and tuned for crews that can’t afford hallucinations or dead zones.
+          Pullsheet makes crews faster, compliant, and confident—offline, OEM-clean, and tuned for real controllers. Built
+          by a working elevator mechanic for regulated, high-stakes work.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link

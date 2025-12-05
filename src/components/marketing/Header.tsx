@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/pullsheet", label: "Pullsheet" },
   { href: "/labs", label: "Labs" },
   { href: "/principle", label: "Principle" },
+  { href: "/founder", label: "Founder" },
   { href: "/contact", label: "Contact" },
   { href: "/privacy", label: "Privacy" },
 ];
@@ -36,12 +37,17 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <Link
-          href="/contact"
-          className="jelly-pill hidden text-xs uppercase tracking-[0.25em] lg:inline-flex px-5 py-2"
-        >
-          Let’s talk
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link href="/pullsheet" className="hidden text-xs uppercase tracking-[0.25em] text-slate-200 hover:text-white lg:inline-flex">
+            Pullsheet
+          </Link>
+          <Link
+            href="/contact"
+            className="jelly-pill hidden text-xs uppercase tracking-[0.25em] lg:inline-flex px-5 py-2"
+          >
+            Let’s talk
+          </Link>
+        </div>
       </div>
     </header>
   );

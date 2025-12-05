@@ -27,8 +27,11 @@ export default function LabsPage() {
             Experiments that feed the mesh.
           </h1>
           <p className="mt-5 max-w-3xl text-lg text-slate-200">
-            Every lab project hardens Pullsheet and the IntentMesh core—training, inspectors, narrative tools, and ops
-            that compound real field intelligence.
+            Every lab project hardens Pullsheet and the IntentMesh core—training sims, inspectors, narrative tools, and ops
+            that compound real field intelligence across teams.
+          </p>
+          <p className="mt-3 max-w-3xl text-sm text-slate-300">
+            Output flows back into the field: better diagnostics, safer work, and faster onboarding for crews.
           </p>
         </div>
       </section>
